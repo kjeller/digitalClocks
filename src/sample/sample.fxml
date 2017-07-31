@@ -1,0 +1,11 @@
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml" spacing="20">
+    <children>
+        <Text fx:id="binaryClock"/>
+        <Text fx:id="hexClock"/>
+        <Text fx:id="digitalClock"/>
+    </children>
+</VBox>
